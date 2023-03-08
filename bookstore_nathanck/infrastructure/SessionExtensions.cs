@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace bookstore_nathanck.infrastructure
 {
+    //to store make session
     public static class SessionExtensions
     {
         public static void SetJson(this ISession session, string key, object value)

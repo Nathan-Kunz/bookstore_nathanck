@@ -29,6 +29,7 @@ namespace bookstore_nathanck.Models
         }
         public double CalculateTotal()
         {
+            //find the book total cost
             double sum = Items.Sum(x => x.Quantity * x.Book.Price);
             return sum;
         }
